@@ -1,0 +1,11 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    ViewData["nowTm"] = DateTime.Now.ToString();
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Hello World: <b> @ViewData["nowTm"] </b></p>
+</div>
